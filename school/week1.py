@@ -1,0 +1,7 @@
+print(1+2*3+4/1%1)
+print(2**3*5+10-2//2)
+print(5*5 >= 10 and 6 * 7 >= 20)
+print(2**5 // 4 / 2 * 5 % 3)
+print(3 >= 2 == False or False and 4<5 and True)
+print(5*3 > 10 and 4+6 == 11-1)
+print(9//5 > 1 or False and True or 8**1 > 7 or 80 > 9 ** 2)
