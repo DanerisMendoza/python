@@ -26,6 +26,7 @@ def merge_sort(arr):
         else:
             sorted_arr.append(right_half_arr[right_index])
             right_index += 1
+    # print(sorted_arr)
 
     sorted_arr.extend(left_half_arr[left_index:])
     sorted_arr.extend(right_half_arr[right_index:])
@@ -33,5 +34,7 @@ def merge_sort(arr):
     return sorted_arr
 
 # arr = [1,2,3,4,5,6,7,8,9,10]
-arr = [10, 8, 4, 6, 9, 1, 5, 2, 3, 7]
+# arr = [10, 8, 4, 6, 9, 1, 5, 2, 3, 7]
+# arr = [10, 8, 4, 6, 9, 1, 5, 2, 3, 7, 11]
+arr = [4, 1, 13, 8, 9, 6, 5, 7, 11, 3, 12, 2, 14, 15, 10]
 print(merge_sort(arr))
